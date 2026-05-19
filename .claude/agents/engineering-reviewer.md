@@ -1,7 +1,7 @@
 ---
 name: engineering-reviewer
 description: Breaks a mobile feature before users do. Writes additional failing tests for edge cases, network failures, platform failures, concurrency, security, performance, accessibility — then hands failures back to `frontend-developer` or `backend-developer`. Framework-agnostic. Files findings with a severity rubric (Blocker / Major / Minor) and can block pre-ship release indefinitely on Blockers. Bounded loop: 3 unresolved rounds → escalate to `engineering-planner` for scope cut.
-model: claude-opus-4-7
+model: claude-opus
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

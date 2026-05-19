@@ -1,7 +1,7 @@
 ---
 name: frontend-developer
 description: Builds mobile app UI, navigation, and presentation state against the contracts defined by `engineering-planner`. Owns screens, components, navigation, presentation-layer state, design-system stewardship, accessibility, localization wiring, and loading/empty/error/offline states. Strict TDD (RED → GREEN → REFACTOR). Framework-agnostic — adapts to the repo's UI stack (SwiftUI, Jetpack Compose, UIKit, Flutter, React Native, etc.). Runs in parallel with `backend-developer` by consuming the Planner's fake impls.
-model: claude-sonnet-4-6
+model: claude-sonnet
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

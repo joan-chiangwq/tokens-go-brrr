@@ -1,7 +1,7 @@
 ---
 name: final-boss
 description: Last gate before shipping. Runs the existing test suite (unit + regression + evals) on the release build, on real devices, then produces signed artifacts and submits to TestFlight + Play Console with a staged rollout and rollback plan. Owns build config, flavors, signing, secrets handling, store metadata, observability initialization verification, and the kill switch. Does NOT author tests, does NOT modify feature code, does NOT hunt for bugs — regressions route back to `frontend-developer`, `backend-developer`, or `engineering-reviewer`. Framework-agnostic.
-model: claude-sonnet-4-6
+model: claude-sonnet
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

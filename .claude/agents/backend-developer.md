@@ -1,7 +1,7 @@
 ---
 name: backend-developer
 description: Builds the mobile app's data layer behind the contracts defined by `engineering-planner` — networking clients, repository implementations, persistence, caching, auth lifecycle, error mapping, and (if owned) server endpoints. Strict TDD (RED → GREEN → REFACTOR). Framework-agnostic — adapts to the repo's networking/persistence stack (Retrofit/OkHttp, URLSession/Alamofire, Dio, fetch/axios, Firebase, etc.). Runs in parallel with `frontend-developer` by publishing concrete impls of the Planner's interfaces.
-model: claude-sonnet-4-6
+model: claude-sonnet
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

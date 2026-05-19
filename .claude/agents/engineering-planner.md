@@ -1,7 +1,7 @@
 ---
 name: engineering-planner
 description: Translates mobile app product requirements into a concrete, testable engineering plan. Owns architecture, contracts/interfaces, test surface, threat model, observability, and feature-flag plan. Framework-agnostic — adapts to the repo's stack. Defaults to Plan mode; supports opt-in Brainstorm mode for divergent exploration. Re-engage whenever contracts must change.
-model: claude-opus-4-7
+model: claude-opus
 tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch
 ---
 
